@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Add Inventory</title>
+  </head>
+  <body>
+    <div style="height: 50%; width: 50%; margin: auto; margin-top: 250px">
+      <h2 style="margin-left: 250px">Update Inventory</h2>
+      <form>
+        <div class="form-group">
+          <label for="model_number">Model Number</label>
+          <input
+            type="text"
+            class="form-control"
+            id="model_number"
+            aria-describedby="model_help"
+            placeholder="Enter Model Number"
+          />
+          <small id="model_help" class="form-text text-muted"
+            >Enter Model Number of the product you want to update.</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter Name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="quantity">Quantity</label>
+          <input
+            type="text"
+            class="form-control"
+            id="quantity"
+            placeholder="Enter Quantity"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+      </form>
+    </div>
+  </body>
+</html>
